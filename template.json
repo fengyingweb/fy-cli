@@ -1,0 +1,16 @@
+{
+  "vue-2": {
+    "git": "git@github.com:fengyingweb/vue-cli2_demo.git",
+    "description": "基于Vue-cli2框架"
+  },
+
+  "vue-3": {
+    "git": "https://github.com/fengyingweb/fyel-ui.git",
+    "description": "基于Vue-cli3框架"
+  },
+
+  "vue-ssr": {
+    "git": "https://github.com/fengyingweb/nuxt-app.git",
+    "description": "基于nuxt的服务端渲染框架"
+  }
+}

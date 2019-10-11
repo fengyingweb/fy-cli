@@ -1,0 +1,18 @@
+{
+  "name": "fy-cli",
+  "version": "1.0.0",
+  "description": "基于VUE的前端框架脚手架",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "VUE"
+  ],
+  "author": "fengying",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
