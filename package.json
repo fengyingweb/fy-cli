@@ -2,9 +2,11 @@
   "name": "fy-cli",
   "version": "1.0.0",
   "description": "基于VUE的前端框架脚手架",
-  "main": "index.js",
+  "main": "./bin/cmd.js",
+  "bin": {
+    "fy": "./bin/cmd.js"
+  },
   "scripts": {
-    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,7 +14,20 @@
   ],
   "author": "fengying",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fengyingweb/fy-cli.git"
+  },
   "devDependencies": {
-    "nodemon": "^1.19.3"
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^3.0.2",
+    "download-git-repo": "^3.0.1",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "nodemon": "^1.19.3",
+    "ora": "^4.0.2",
+    "shelljs": "^0.8.3"
   }
 }

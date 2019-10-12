@@ -1,4 +1,4 @@
 {
   "ext": "js",
-  "exec": "node index.js"
+  "exec": "node bin/cmd.js"
 }
