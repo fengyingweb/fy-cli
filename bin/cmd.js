@@ -8,6 +8,15 @@ const delTemplate = require('../lib/del');
 program
   .version(pkg.version, '-v, --version');
 
+  // 查看模板列表命令
+program
+.command('list')
+.description('查看模板列表')
+.alias('l')
+.action(()=> {
+  list();
+});
+
 // 初始化项目
 program
   .command('init [name]')
@@ -17,14 +26,6 @@ program
     init(name);
   });
 
-// 查看模板列表命令
-program
-  .command('list')
-  .description('查看模板列表')
-  .alias('l')
-  .action(()=> {
-    list();
-  });
 
 // 添加模板命令
 program

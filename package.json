@@ -6,9 +6,11 @@
   "bin": {
     "fy": "./bin/cmd.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "files": [
+    "bin",
+    "lib",
+    "templates.json"
+  ],
   "keywords": [
     "VUE"
   ],
@@ -17,6 +19,9 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:fengyingweb/fy-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "chalk": "^2.4.2",
