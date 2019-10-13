@@ -2,15 +2,10 @@
   "name": "fyc-cli",
   "version": "1.0.0",
   "description": "基于VUE的前端框架脚手架",
-  "main": "./bin/cmd.js",
+  "main": "bin/fyc.js",
   "bin": {
-    "fyc": "./bin/cmd.js"
+    "fyc": "bin/fyc.js"
   },
-  "files": [
-    "bin",
-    "lib",
-    "templates.json"
-  ],
   "keywords": [
     "VUE"
   ],
