@@ -1,10 +1,10 @@
 {
-  "name": "fy-cli",
+  "name": "fyc-cli",
   "version": "1.0.0",
   "description": "基于VUE的前端框架脚手架",
   "main": "./bin/cmd.js",
   "bin": {
-    "fy": "./bin/cmd.js"
+    "fyc": "./bin/cmd.js"
   },
   "files": [
     "bin",

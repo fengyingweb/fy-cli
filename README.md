@@ -2,16 +2,16 @@
 
 ### 安装
 
-> npm install -g fy-cli
+> npm install -g fyc-cli
 
 ### 查看版本命令
 
-> fy -v
+> fyc -v
 
 输出: 1.0.0
 
 ### 帮助命令
-> fy -h
+> fyc -h
 
 输出:
 ````
@@ -30,8 +30,8 @@ Commands:
 
 ### 初始化项目
 
-> fy init [name]
+> fyc init [name]
 
 ### 查看模板列表
 
-> fy list
+> fyc list
