@@ -7,11 +7,13 @@
 ### 查看版本命令
 
 > fy -v
-> 1.0.0
+
+输出: 1.0.0
 
 ### 帮助命令
 > fy -h
 
+输出:
 ````
 Usage: cmd [options] [command]
 
