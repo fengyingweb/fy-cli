@@ -1,4 +1,7 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --harmony
+
+'use strict'
+
 const program = require('commander');
 const pkg = require('../package.json');
 const init = require('../lib/init');
