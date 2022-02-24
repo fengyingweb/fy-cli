@@ -1,5 +1,11 @@
 ## 基于VUE的前端框架脚手架
 
+### 本地调试
+
+> npm link
+
+> npm unlink
+
 ### 安装
 
 > npm install -g fyc-cli
